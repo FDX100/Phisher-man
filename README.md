@@ -1,6 +1,6 @@
 ### Phisher-man
 best phishing tool ever made for kali linux work with ngrok 
-it has morethan 15 different of phishing page (fake page)
+it has morethan 17 different of phishing page (fake page)
 
 ### Usage:
 ```
