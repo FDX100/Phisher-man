@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title%}
+Dashboard
+{%endblock%}
+{% block content %}
+
+<center>
+<div class="container px-4 pt-4">
+
+
+
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-3 border bg-light">
+
+                <a  class="btn btn-success" href="/server?statuse=start">Start Apache Service</a><br><br>
+                <a  class="btn btn-danger" href="/server?statuse=stop">Stop Apache Service </a><br><br>
+                <a  class="btn btn-warning" href="/server?statuse=clear">clear Apache </a>
+
+            </div>
+
+        </div>
+
+    </div>
+<br>
+
+
+</center>
+{%endblock %}

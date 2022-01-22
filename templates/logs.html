@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{%block title%} LOGS{% endblock %}
+
+{%block content%} 
+
+
+<style>
+
+    #terminal {
+        background: #000;
+        color: #FFFFFF;
+        display:table;
+        width:850px;
+        height:500px;
+        border: 1px solid #f2f2f2;
+        border-radius:10px;
+        box-shadow: 0px 4px 10px #909090;
+        .header-terminal{
+          width:100%;
+          float:left;
+          background:#909090;
+          height:25px;
+          border-radius:10px 10px 0 0;
+          ul{
+            list-style:none;
+            padding:5px;
+            margin:0;
+          }
+          li{
+            display:table;
+            padding: 0 3px;
+            float:left;
+            a{
+              border-radius:15px;
+              float:left;
+              width:15px;
+              height:15px;
+              box-shadow:inset 0px 0px 4px #fff;
+            }
+            .close {
+              background: #F6625A;
+            }
+            .maximize{
+              background: #29C537;
+            }
+            .minimize{
+              background: #FBC132;
+            }
+          }
+        }
+        .body-terminal{
+          width:100%;
+          float:left;
+          padding:15px;
+        }
+      }
+  </style>  
+
+  <script>
+    setTimeout(function(){
+        window.location.reload(1);
+     }, 5000);
+     
+  </script>  
+<center>
+<div class="container pt-4">
+  <div id="terminal">
+    <div class="header-terminal">
+
+    </div>
+    <div class="body-terminal">
+      <code><br>
+        {{result}}
+      </code>
+    </div>
+  </div>
+
+</div>
+<center>
+{%endblock%}
